@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+}
+.container {
+  max-width: 1400px;
+  display: flex;
+  margin: 0 auto;
+}
+.logo {
+  padding: 32px 41px;
+}
+.nav-list {
+  gap: 40px;
+  list-style: none;
+  padding: 32px 41px;
+  display: flex;
+}
+.nav-item a {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  color: #686868;
+  text-decoration: none;
+}
+.left button {
+  cursor: pointer;
+  margin-left: 30px;
+  color: #686868;
+  background-color: #fafafa;
+  padding: 13px 22px;
+  border-radius: 14px;
+  border: 1.7px solid #686868;
+  transition: all 0.3s ease;
+}
+.left button:hover {
+  background-color: #686868;
+  color: #fafafa;
+}
+.left a {
+  text-decoration: none;
+  gap: 13px;
+  color: #686868;
+}
+.left {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  margin-left: 500px;
+  padding: 32px 41px;
+}
+.nav {
+  display: flex;
+}
+.body{
+  display: flex;
+  justify-content: space-between;
+}
+.lesson1 h1{
+  line-height: 80px;
+  margin-top: 100px;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  color: #151515;
+  font-size: 70px;
+  width: 420px;
+  margin-bottom: 48px;
+}
+.lesson1 button{
+  cursor: pointer;
+  background-color: #151515;
+  padding: 15px 28px;
+  color: #FAFAFA;
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+.lesson1 button:hover{
+  background-color: #686868;
+}
+.lesson1 p{
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  color: #686868;
+  font-size: 18px;
+  width: 405px;
+  margin-bottom: 51px;
+}
+.lesson2 img{
+  margin-left: 50px;
+  margin-top: 27px;
+}
+.passpart{
+  margin-top: 80px;
+}
